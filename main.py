@@ -55,7 +55,7 @@ for i in range(num_of_enemies):
 bulletImg = pg.image.load('img/bullet.png')
 bulletX = 0
 bulletY = 480
-bulletX_change = 0
+bulletX_change = 0 # linea recta
 bulletY_change = 10
 bullet_state = "ready"
 
